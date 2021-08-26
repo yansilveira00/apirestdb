@@ -107,7 +107,9 @@ Como criamos um modelo novo lá em cima, precisamos avisar e em seguida migrar t
 >python manage.py migrate
 >python manage.py runserver 
 ```
-Agora você pode usar um programa como <a href="https://insomnia.rest/">Insomnia</a> para testar os métodos http no link do seu servidor local.
+Agora você pode usar um programa como <a href="https://insomnia.rest/">Insomnia</a> para testar os métodos http no link do seguinte servidor.
+
+>https://apirestdb.herokuapp.com/alunos/
 
 >O python facilita bastante coisas para a gente, como os serializers (que convertem objetos para strings na comunicação cliente-servidor) e os verbos http (GET, POST, PUT, DELETE) que de certa forma também vem por padrão. Não me aprofundei neles durante o readme porque também preciso entender melhor como essas coisas funcionam
 
